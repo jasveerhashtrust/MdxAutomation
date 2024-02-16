@@ -31,4 +31,4 @@ Join our growing community and learn how to leverage agent-based technology to i
 
 **AGENTVERSE DEMO EVENT**: Why not join us on Discord on 6th April for our Agentverse Showcase with our CTO, where you can gain a practical understanding of the Agentverse? If you missed it, be sure to watch the recording.
 
-Our team is waiting for you on [Discord](https://discord.gg/JUFqr7rTTe) and [Telegram](https://t.me/fetch_ai) if you have any
+Our team is waiting for you on [Discord](https://discord.gg/JUFqr7rTTe) and [Telegram](https://t.me/fetch_ai) if you have
