@@ -1,0 +1,25 @@
+name: Integration Pipeline
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  integration:
+    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'integrations')
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source bin/source/activate
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run script
+        run: python your_script.py
