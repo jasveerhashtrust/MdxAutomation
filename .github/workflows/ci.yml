@@ -18,8 +18,8 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install markdown
+          pip install requests
     
       - name: Run script
         run: python script.py

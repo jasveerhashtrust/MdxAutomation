@@ -8,6 +8,7 @@ def extract_md_content(file_path):
         return html_content
 
 def create_product_in_stripe(html_content):
+    print(html_content)
     stripe_secret_key = 'your_stripe_secret_key_here'
     endpoint = 'https://api.stripe.com/v1/products'
 
