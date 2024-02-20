@@ -25,13 +25,8 @@ jobs:
           python3 -m venv venv
           source venv/bin/activate
           pip install requests
-          
-      - name: Echo secrets for verification
-        run: |
-            echo "SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}"
-            echo "CHANNEL_ID: ${{ secrets.CHANNEL_ID }}"
 
       - name: Run script with PR number
         run: |
           source venv/bin/activate
-          python script.py "${{ github.event.pull_request.number }}" "${{ secrets.SLACK_TOKEN }}" "${{ secrets.CHANNEL_ID }}"
+          python script.py ${{ github.event.pull_request.number }}${{ secrets.SLACK_TOKEN }}${{ secrets.CHANNEL_ID }}
