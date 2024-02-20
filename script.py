@@ -51,6 +51,7 @@ def get_pr_details(owner, repo, pr_number):
         return None
 
 def notify_on_slack():
+    print(sys.argv)
     pr_number =  sys.argv[1]
     owner = "jasveerhashtrust"
     repo = "MdxAutomation"
@@ -63,8 +64,8 @@ def notify_on_slack():
         return None
     
 if __name__ == '__main__':
-    slack_token=sys.argv[2]
-    channel_id=sys.argv[3]
+    slack_token= sys.argv[2]
+    channel_id= sys.argv[3]
     path_response=notify_on_slack()
     file_path=path_response
     initial_comment = 'Integration is merged sucessfully here is a file for you!'
