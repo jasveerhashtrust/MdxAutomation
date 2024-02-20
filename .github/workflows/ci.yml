@@ -39,3 +39,5 @@ jobs:
         run: |
           source venv/bin/activate
           python script.py "${{ github.event.pull_request.number }}${{ secrets.SLACK_TOKEN }}${{ secrets.CHANNEL_ID }}"
+          
+
