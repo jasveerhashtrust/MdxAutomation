@@ -58,7 +58,7 @@ def notify_on_slack():
     pr_details = get_pr_details(owner, repo, pr_number)
     matching_files = [file['filename'] for file in pr_details if 'blog.md' in file['filename']]
     if matching_files:
-        first_matching_file = matching_files[1]
+        first_matching_file = matching_files[0]
         return first_matching_file
     else:
         return None

@@ -4,7 +4,7 @@ title: "Fetch.ai secures $40m investment from DWF Labs"
 excerpt: "DWF Labs, a leading technology incubator, has announced its $40M investment in Fetch.ai, an innovative platform that powers peer-to-peer applications with automation and AI capabilities."
 author: "Fetch.ai"
 card_image: "../../src/images/content-hub/articles-images/dwf_labs_square.png"
-banner_image: "../../src/images/content-hub/articles-images/banners/dwf_labs_fetch_banner.png"
+banner_image: ".././src/images/content-hub/articles-images/banners/dwf_labs_fetch_banner.png"
 category: "article"
 date: 2023-03-29
 views: 0
