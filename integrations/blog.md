@@ -35,4 +35,4 @@ The partnership between DWF Labs and Fetch.ai will create a new synergy in the d
 
 ## About DWF Labs
 
-[DWF Labs](https://www.dwf-labs.com/) is the global digital asset market maker and multi-stage Web3 investment firm, supporting portfolio companies from token listing to market making to OTC trading solutions. With offices in Singapore, Switzerland, the UAE, Hong Kong, South Korea and BVI, the investment company DWF Labs is an affiliate of Digital Wave Finance (DWF), which consistently ranks among the top 5 trading entities by volume in the cryptocurrency world through its proprietary technology for high frequency trading.
+[DWF Labs](https://www.dwf-labs.com/) is the global digital asset market maker and multi-stage Web3 investment firm, supporting portfolio companies from token listing to market making to OTC trading solutions. With offices in Singapore, Switzerland, the UAE, Hong Kong, South Korea and BVI, the investment company DWF Labs is an affiliate of Digital Wave Finance (DWF), which consistently ranks among the top 5 trading entities by volume in the cryptocurrency world through its proprietary technology for high frequency trading
