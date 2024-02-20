@@ -14,12 +14,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install dependencies
+      - name: Install Python and dependencies
         run: |
-          python -m venv venv
+          sudo apt-get install python3 python3-venv
+          python3 -m venv venv
           source venv/bin/activate
-          pip install markdown
-          pip install requests
-    
+          pip install markdown requests
+
       - name: Run script
         run: python script.py
