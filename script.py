@@ -1,6 +1,5 @@
 import markdown
-import os
-from dotenv import load_dotenv
+import sys
 
 def extract_md_content(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -9,8 +8,11 @@ def extract_md_content(file_path):
         return html_content
 
 def create_product_in_stripe(html_content):
-    load_dotenv()
-    stripe_secret_key = os.getenv('API_KEY')
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <pull_request_number>")
+        return
+     
+    stripe_secret_key = sys.argv[1]
     print(stripe_secret_key)
 
 if __name__ == '__main__':

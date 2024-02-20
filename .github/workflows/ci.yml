@@ -24,9 +24,9 @@ jobs:
           sudo apt-get install python3 python3-venv
           python3 -m venv venv
           source venv/bin/activate
-          pip install markdown requests
+          pip install markdown load_dotenv requests
 
-      - name: Run script
+      - name: Run script with PR number
         run: |
           source venv/bin/activate
-          python script.py
+          python script.py ${{ github.event.pull_request.number }}
