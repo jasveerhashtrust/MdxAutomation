@@ -8,7 +8,6 @@ banner_image: "../../src/images/content-hub/articles-images/banners/dwf_labs_fet
 category: "article"
 date: 2023-03-29
 views: 0
-featured: false
 ---
 
 **LOCATION / March 29, 2023** - [DWF Labs](https://www.dwf-labs.com/), a leading technology incubator, has announced its $40M investment in Fetch.ai, an innovative platform that powers peer-to-peer applications with automation and AI capabilities. The investment will support the development and deployment of autonomous agents, network infrastructure, and decentralised machine learning on the Fetch.ai platform.
