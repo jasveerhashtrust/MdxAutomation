@@ -10,7 +10,7 @@ on:
 
 jobs:
   integration:
-    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'integrations')
+    if: contains(github.event.pull_request.labels.*.name, 'integrations')
 
     runs-on: ubuntu-latest
 
